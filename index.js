@@ -1,10 +1,12 @@
 // Write your code here!
+let newHeader = document.createElement('h1#victory');
+newHeader.innerHTML = 'Oliver is the champion';
+
 const main = document.querySelector('main#main');
 main.remove();
 
-let newHeader = document.createElement('h1#victory');
-newHeader.innerHTML = 'Oliver is the champion';
-element = document.createElement('div');
-document.body.appendChild(element);
-element.appendChild(newHeader);
-return newHeader;
+
+// element = document.createElement('div');
+// document.body.appendChild(element);
+// element.appendChild(newHeader);
+// return newHeader;
