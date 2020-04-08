@@ -4,4 +4,3 @@ main.remove();
 
 let newHeader = document.createElement('h1#victory');
 newHeader.innerHTML = 'Oliver is the champion'
-document.body.appendChild(newHeader);
