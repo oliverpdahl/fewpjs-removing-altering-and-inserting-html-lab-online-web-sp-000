@@ -2,6 +2,6 @@
 const main = document.querySelector('main#main');
 main.remove();
 
-const newHeader = document.createElement('h1#victory');
-
+let newHeader = document.createElement('h1#victory');
+newHeader.innerHTML = 'Oliver is the champion'
 document.body.appendChild(newHeader);
