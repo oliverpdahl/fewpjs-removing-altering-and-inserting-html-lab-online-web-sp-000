@@ -2,4 +2,4 @@
 const main = document.querySelector('#main');
 main.remove();
 
-let newHeader = document.querySelector('H1#victory');
+let newHeader = document.querySelector('h1');
