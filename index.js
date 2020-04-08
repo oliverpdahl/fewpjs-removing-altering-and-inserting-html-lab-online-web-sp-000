@@ -7,4 +7,4 @@ newHeader.innerHTML = 'Oliver is the champion';
 element = document.createElement('div');
 document.body.appendChild(element);
 element.appendChild(newHeader);
-return newHeader
+return newHeader;
